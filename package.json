@@ -1,8 +1,27 @@
 {"name": "nativescript-social-login",
   "version": "0.0.1",
+  "nativescript": {
+    "id": "com.syncro.nativescriptsocial",
+    "tns-android": {
+     "version": "2.3.0"
+    },
+    "tns-ios": {
+      "version": "2.3.0"
+    }
+  },
   "dependencies": {
+    "nativescript-fresco": "^1.0.3",
+    "nativescript-telerik-ui-pro": "1.4.1",
+    "tns-core-modules": "2.3.0"
   },
   "devDependencies": {
+    "babel-traverse": "6.9.0",
+    "babel-types": "6.9.0",
+    "babylon": "6.8.0",
+    "filewalker": "0.1.2",
+    "lazy": "1.0.11",
+    "nativescript-dev-typescript": "^0.3.2",
+    "typescript": "^1.8.10"
   }
 }
 
